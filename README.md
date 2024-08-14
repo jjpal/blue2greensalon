@@ -1,6 +1,7 @@
 # blue2greensalon
 
-<img src = "/assets/blue2greensalon.gif" alt="salon" width="300"/>
+<img src = "/assets/blue2greensalon.gif" alt="salon" width="500" height="300" 
+        style="display: block; margin: 0 auto"/>
 
 
 ### Data
