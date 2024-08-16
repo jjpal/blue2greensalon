@@ -5,9 +5,20 @@
         style="display: block; margin: 0 auto"/>
 </p>
 
+The salon has been undergoing a digital transformation to move the business and all its processes to an online platform. The family business is transitioning to a new era, perhaps with a hint of reluctance but great anticipation for the limitless opportunities ahead. In unexpected events, they have a contingency plan to keep the business running smoothly the "old" way, even if there's a power outage or any other unforeseen circumstances. The plan is to start with one location and then move ahead and add the other salon locations.
+
+It is essential to gain a comprehensive understanding of the operations. To make this happen - the data must be gathered from the various parts of the business. The first few things that come to mind that need to be collected include:
+- bookings
+- service listing
+- product listing
+- receipt transactions
+
+
+
+
 ### Data
 
-[Salon - original dataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
+[Salon dataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
 
 
 
