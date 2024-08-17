@@ -13,7 +13,8 @@ It is essential to gain a comprehensive understanding of the operations. To make
 - product listing
 - receipt transactions
 
-
+Problem Statement:
+Even though the beauty salon has a lot of information, they find it challenging to use this data to improve customer experience, streamline their business, and make it more eco-friendly. The salon is missing out on many great opportunities for personalized marketing, efficient inventory management, improved environmental impact, and better scheduling. 
 
 
 ### Data
