@@ -7,18 +7,22 @@
 
 Problem Statement:
 
-The beauty salon finds it challenging to use the information to improve customer experience, streamline their business, and make it more eco-friendly. The salon is missing out on many great opportunities. 
+The beauty salon finds it challenging to use the information to improve customer experience, streamline their business, and make it more eco-friendly. 
 
 Background (storyline):
 
 The salon has been undergoing a digital transformation to move the business and all its processes to an online platform. The family business is transitioning to a new era, perhaps with a hint of reluctance but great anticipation for the limitless opportunities ahead. In unexpected events, they have a contingency plan to keep the business running smoothly the "old" way, even if there's a power outage or any other unforeseen circumstances. The plan is to start with one location and then move ahead and add the other salon locations.
 
-It is essential to gain a comprehensive understanding of the operations. To make this happen - the data must be gathered from the various parts of the business. The first few things that come to mind that need to be collected include:
+The salon is missing out on many great opportunities. It is essential to gain a comprehensive understanding of the operations. To make this happen - the data must be gathered from the various parts of the business. The first few things that come to mind that need to be collected include:
 - bookings
 - service listing
 - product listing
 - receipt transactions
 
+Other things to consider:
+- tracking cancellations and no-shows
+- personnel -- schedule with frequent customers
+- reviews
 
 
 
