@@ -67,15 +67,17 @@ To integrate eco-friendly practices into the salon's operations, the salon is co
 
   - Post signage about green initiatives and share eco-efforts on social media to raise awareness.
 
+  - Ideate new ways to encourage clients to adopt eco-friendly habits
+
 - Conduct regular environmental audits:
 
   - Assess current practices and identify areas for improvement in energy use, product choices, and waste management.
 
-- Ideate how can to encourage clients to adopt eco-friendly habits
 
 
 
-### Data
+
+Data
 
 [Salon dataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
 
