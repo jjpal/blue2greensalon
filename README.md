@@ -24,6 +24,8 @@ Other things to consider:
 - personnel -- schedule with frequent customers
 - reviews
 
+╔══════════════════════════════🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿════════════════════════════════════╗ <br>
+
 To integrate eco-friendly practices into the salon's operations, the salon is considering implementing the following strategies:
 
 - Use green cleaning products: Replace conventional cleaning supplies with non-toxic, biodegradable options that use plant-based ingredients like citrus, aloe vera, and essential oils.
