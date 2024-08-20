@@ -63,7 +63,7 @@ To integrate eco-friendly practices into the salon's operations, the salon is co
 
 - Educate staff and clients:
 
-  - Provide training for your team on eco-friendly practices and the salon's environmental goals.
+  - Provide training on eco-friendly practices and the salon's environmental goals.
 
   - Post signage about green initiatives and share eco-efforts on social media to raise awareness.
 
