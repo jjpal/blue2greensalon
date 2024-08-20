@@ -24,7 +24,7 @@ Other things to consider:
 - personnel -- schedule with frequent customers
 - reviews
 
-╔══════════════════════════════🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿════════════════════════════════════╗ <br>
+🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿 <br>
 
 To integrate eco-friendly practices into the salon's operations, the salon is considering implementing the following strategies:
 
