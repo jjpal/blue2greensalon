@@ -1,4 +1,5 @@
-User Requirements
+## User Requirements
+
     1. Centralized Booking System: Implement an online booking platform that integrates with the salon's calendar. This system should allow customers to book appointments 24/7, send automated reminders, and manage cancellations or rescheduling.
 
         1. Requirement: Implement a digital booking system that captures appointment details, including date, time, service type, and assigned stylist.
