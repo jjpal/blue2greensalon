@@ -30,41 +30,41 @@ To integrate eco-friendly practices into the salon's operations, the salon is co
 
 - Implement energy-efficient practices:
 
- - - Install LED light bulbs throughout the salon, including track lighting, reception lamps, and bathroom vanities.
+  - Install LED light bulbs throughout the salon, including track lighting, reception lamps, and bathroom vanities.
 
- - - Add occupancy sensors and timers to further reduce energy consumption.
+  - Add occupancy sensors and timers to further reduce energy consumption.
 
- - - Invest in energy-saving equipment and appliances.
+  - Invest in energy-saving equipment and appliances.
 
 - Conserve water:
 
- - - Install low-flow plumbing fixtures, including faucets, showerheads, and toilets.
+  - Install low-flow plumbing fixtures, including faucets, showerheads, and toilets.
  
- - - Use ECOHEADS shower nozzles at shampoo bowls to reduce water usage while maintaining pressure.
+  - Use ECOHEADS shower nozzles at shampoo bowls to reduce water usage while maintaining pressure.
 
 - Implement waste reduction and recycling:
 
- - - Set up clearly labeled recycling bins throughout the salon for paper, plastic, glass, and metal.
+  - Set up clearly labeled recycling bins throughout the salon for paper, plastic, glass, and metal.
 
- - - Rinse and recycle bulk product containers.
+  - Rinse and recycle bulk product containers.
 
- - - Adopt biodegradable alternatives for shipping materials and retail bags.
+  - Adopt biodegradable alternatives for shipping materials and retail bags.
 
 - Choose eco-friendly salon products:
 
- - - Use organic, vegan, and cruelty-free professional beauty products.
+  - Use organic, vegan, and cruelty-free professional beauty products.
 
- - - Opt for products free from harsh ingredients like sulfates, parabens, phthalates, and artificial fragrances.
+  - Opt for products free from harsh ingredients like sulfates, parabens, phthalates, and artificial fragrances.
 
 - Educate staff and clients:
 
- - - Provide training for your team on eco-friendly practices and the salon's environmental goals.
+  - Provide training for your team on eco-friendly practices and the salon's environmental goals.
 
- - - Post signage about green initiatives and share eco-efforts on social media to raise awareness.
+  - Post signage about green initiatives and share eco-efforts on social media to raise awareness.
 
 - Conduct regular environmental audits:
 
- - - Assess current practices and identify areas for improvement in energy use, product choices, and waste management.
+  - Assess current practices and identify areas for improvement in energy use, product choices, and waste management.
 
 - Ideate how can to encourage clients to adopt eco-friendly habits
 
