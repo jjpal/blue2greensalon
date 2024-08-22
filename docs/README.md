@@ -1,3 +1,3 @@
 # Project documents
 
-- [Project User requirements (draft)](/Project%20Requirements.md)
+- [Project User requirements (draft)](/docs/Project%20Requirements.md)
