@@ -8,14 +8,14 @@
         ◦ Create detailed use cases for each major functionality.
 
         ◦ Prioritize requirements based on business value and technical feasibility.
-3. Diagrams - Process/ Data Flow | System Context
+3. Diagrams - Data / Process Flow | System Context
         <!--
         ◦ Develop a high-level diagram showing how the new system will interact with external systems and users.
         ◦ Design flowcharts or UML activity diagrams to illustrate key business processes the system will support.
         -->
 4. Data Dictionary
 
-        ◦ Compile a list of all data elements, their definitions, data types, and sources.
+        ◦ Compile a list of all data elements, definitions, data types, and sources.
 5. Data Source Analysis
 
         ◦ Identify and analyze all data sources that will feed into the new system.
