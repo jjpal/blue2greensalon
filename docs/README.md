@@ -31,7 +31,6 @@
 ### Project documents
 
 - [Project User Requirements (draft)](/docs/Project%20Requirements.md)
-
 - [Refined Requirements](/docs/Refined%20Requirements.md)
-- [Quick Draft System and Data Outline Diagram](/docs/Diagrams.md)
+- [High Level System & Data Diagram](/docs/Project%20Diagrams.md)
 
