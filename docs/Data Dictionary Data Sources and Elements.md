@@ -11,3 +11,12 @@
 - locations
 
 ## Tables with Corresponding Columns
+* bookings table
+    - Columns:
+     - Booking_ID
+     - Client_Code	
+     - Stylist
+     - Service_Code
+     - Booking_Date	
+     - Booking_Time
+     
