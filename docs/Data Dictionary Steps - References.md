@@ -31,3 +31,6 @@
     7. Promote usage, monitor adoption and gather feedback
         ◦ Make it accessible, and provide training on how to use it effectively.
         ◦ Track usage and collect input to continually improve the data dictionary.
+
+## References
+- Data Dictionary - Data Sources and Elements Draft
