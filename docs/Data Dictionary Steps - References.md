@@ -33,4 +33,4 @@
         ◦ Track usage and collect input to continually improve the data dictionary.
 
 ## References
-- Data Dictionary - Data Sources and Elements Draft
+- [Data Dictionary - Data Sources and Elements Draft](/docs/Data%20Dictionary%20Data%20Sources%20and%20Elements.md)
