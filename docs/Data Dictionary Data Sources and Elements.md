@@ -10,7 +10,7 @@
 - reviews
 - locations
 
-## Tables with Corresponding Columns
+## Tables with Corresponding Columns (enhanced datasets)
 * bookings table
     - Columns:
      - Booking_ID
@@ -19,4 +19,15 @@
      - Service_Code
      - Booking_Date	
      - Booking_Time
+
+* service_listings
+    - Columns:
+     - Service_ID	
+     - IsActive_Service	
+     - Service_Code	
+     - Service_Desc
+     - Service_Category	
+     - Service_Price
+     - Serv_ProdAdd_Cost
+
      
