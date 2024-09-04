@@ -12,7 +12,7 @@
 
 ## Tables with Corresponding Columns (enhanced datasets)
 * bookings table
-    - Columns:
+  - Columns:
      - Booking_ID: unique booking identifer
      - Client_Code:	unique client code
      - Stylist: staff member to provide the service
@@ -21,7 +21,7 @@
      - Booking_Time: time the service is scheduled to be provided.
 
 * service_listings
-    - Columns:
+  - Columns:
      - Service_ID: unique service identifier	
      - IsActive_Service: Is the service activee?	
      - Service_Code: service code for the booking	
@@ -31,7 +31,7 @@
      - StPrd4Sv_Cost: the amount the staff pays to the salon for professional product costs.
 
 * product_listings
-    - Columns:
+  - Columns:
      - Product_ID: unique product identifier	
      - IsActive_Product: Is the product active?	
      - Product_code: the product description	
@@ -52,24 +52,24 @@
      - Transaction_Receipt_ID:	
      - Payment_Date:
      - Receipt_Description:
-     -	Client_Code:
+     - Client_Code:
      - Stylist:
-     -	Receipt_Quantity:
-     -	Receipt_Amount:
-     -	tax1:
+     - Receipt_Quantity:
+     - Receipt_Amount:
+     - tax1:
      - tax2:
-     -	Payment_Method:
+     - Payment_Method:
 
 * cancel_noshows
   - Columns:
      - Appointment_Status:
-     -	Code:
-     -	Service:
-     -	Staff:
-     -	Booking Date:
+     - Code:
+     - Service:
+     - Staff:
+     - Booking Date:
      - Event_Date:
-     -	Canceled_By:
-     -	Notification_Days:
+     - Canceled_By:
+     - Notification_Days:
 
 * personnel
  - Columns:
