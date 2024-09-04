@@ -49,29 +49,27 @@
 
 * receipt_transactions
   - Columns:
-      - Transaction_Receipt_ID:	
-      - Payment_Date:
-      - Receipt_Description:
-      -	Client_Code:
-      - Stylist:
-      -	Receipt_Quantity:
-      -	Receipt_Amount:
-      -	tax1:
-      - tax2:
-      -	Payment_Method:
+     - Transaction_Receipt_ID:	
+     - Payment_Date:
+     - Receipt_Description:
+     -	Client_Code:
+     - Stylist:
+     -	Receipt_Quantity:
+     -	Receipt_Amount:
+     -	tax1:
+     - tax2:
+     -	Payment_Method:
 
 * cancel_noshows
   - Columns:
-      - Appointment_Status:
-      -	Code:
-      -	Service:
-      -	Staff:
-      -	Booking Date:
-      - Event_Date:
-      -	Canceled_By:
-      -	Notification_Days:
-    	
-    
+     - Appointment_Status:
+     -	Code:
+     -	Service:
+     -	Staff:
+     -	Booking Date:
+     - Event_Date:
+     -	Canceled_By:
+     -	Notification_Days:
 
 * personnel
  - Columns:
