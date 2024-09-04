@@ -49,27 +49,27 @@
 
 * receipt_transactions
   - Columns:
-     - Transaction_Receipt_ID:	
-     - Payment_Date:
-     - Receipt_Description:
-     - Client_Code:
-     - Stylist:
-     - Receipt_Quantity:
-     - Receipt_Amount:
-     - tax1:
-     - tax2:
-     - Payment_Method:
+     - Transaction_Receipt_ID: receipt number
+     - Payment_Date:  date of the transaction.
+     - Receipt_Description:  service or product name
+     - Client_Code: unique client code.
+     - Stylist:  staff member who provided the service or sold the product.
+     - Receipt_Quantity: number of services or product sold.
+     - Receipt_Amount: the total dollar amount.
+     - tax1: Federal tax amount.
+     - tax2: local tax amount.
+     - Payment_Method: way client paid for service or product
 
 * cancel_noshows
-  - Columns:
-     - Appointment_Status:
-     - Code:
-     - Service:
-     - Staff:
-     - Booking Date:
-     - Event_Date:
-     - Canceled_By:
-     - Notification_Days:
+  - Columns:    
+     - Code: unique client code
+     - Service: service code for the booking
+     - Staff: staff member who was to provide the service
+     - Booking_Date: date the service was scheduled to be provided
+     - Event_Date: date or cancellation or missed appointment
+     - Appointment_Status: indicator for appointmenta that were cancelled or missed
+     - Canceled_By: staff that received call for cancellation
+     - Notification_Days: number of days before appointment or -1 for no-shows
 
 * personnel
  - Columns:
