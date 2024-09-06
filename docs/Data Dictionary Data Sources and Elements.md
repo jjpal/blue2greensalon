@@ -72,13 +72,26 @@
      - Notification_Days: number of days before appointment or -1 for no-shows
 
 * personnel
- - Columns:
-  -   
-
+  - Columns:
+     - Personnel_ID	
+     - Personnel_Preferred_Name
+     - Title
+     - Personnel_Address
+     - Personnel_Phone_Number
+     - Start_Date	
+     - Years_Experience
+        
 * reviews
- - Columns:
-  -   
-
+  - Columns:
+     - Review ID
+     - Rating
+     - Review
+     - Review_Date_Time
+     - Service_ID
+    
 * locations
- - Columns:
-  -   
+  - Columns:
+     - Salon_ID
+     - Salon_Name
+     - Salon_Email
+     
