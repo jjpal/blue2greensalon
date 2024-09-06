@@ -23,7 +23,7 @@
 * service_listings
   - Columns:
      - Service_ID: unique service identifier	
-     - IsActive_Service: Is the service activee?	
+     - IsActive_Service: Is the service activee	
      - Service_Code: service code for the booking	
      - Service_Desc: service name
      - Service_Category: service category descriptor	
@@ -33,7 +33,7 @@
 * product_listings
   - Columns:
      - Product_ID: unique product identifier	
-     - IsActive_Product: Is the product active?	
+     - IsActive_Product: Is the product active	
      - Product_code: the product description	
      - Product_Description: the product supplier
      - Prod_Supplier: the product supplier
@@ -44,20 +44,20 @@
      - Prod_Min: minimum recommended product inventory	
      - Prod_Max: maximum recommended product inventory	
      - Unit_Cost: the unit cost of the product
-     - Prod_COG: the total cost of all units.
+     - Prod_COG: the total cost of all units
      - YTD_Sales: year to date sales
 
 * receipt_transactions
   - Columns:
      - Transaction_Receipt_ID: receipt number
-     - Payment_Date:  date of the transaction.
+     - Payment_Date:  date of the transaction
      - Receipt_Description:  service or product name
-     - Client_Code: unique client code.
-     - Stylist:  staff member who provided the service or sold the product.
-     - Receipt_Quantity: number of services or product sold.
-     - Receipt_Amount: the total dollar amount.
-     - tax1: Federal tax amount.
-     - tax2: local tax amount.
+     - Client_Code: unique client code
+     - Stylist:  staff member who provided the service or sold the product
+     - Receipt_Quantity: number of services or product sold
+     - Receipt_Amount: the total dollar amount
+     - tax1: Federal tax amount
+     - tax2: local tax amount
      - Payment_Method: way client paid for service or product
 
 * cancel_noshows
@@ -73,25 +73,30 @@
 
 * personnel
   - Columns:
-     - Personnel_ID	
-     - Personnel_Preferred_Name
-     - Title
-     - Personnel_Address
-     - Personnel_Phone_Number
-     - Start_Date	
-     - Years_Experience
+     - Personnel_ID: unique personnel code	
+     - Personnel_Preferred_Name: staff member name
+     - Title: staff title
+     - Personnel_Address: hashed address
+     - Personnel_Phone_Number: hashed phone number
+     - Start_Date: staff start date	
+     - Years_Experience: staff years of experience
         
+      Note: partially extracted of original dataset and enriched with additional datasets  
+      
 * reviews
   - Columns:
-     - Review ID
-     - Rating
-     - Review
-     - Review_Date_Time
-     - Service_ID
-    
+     - Review_ID: unique review code
+     - Rating: client rating
+     - Review: client review
+     - Review_Date_Time: date of review
+     - Service_ID: unique service identifier
+      
+      Note: enriched with additional datasets 
+
 * locations
   - Columns:
-     - Salon_ID
-     - Salon_Name
-     - Salon_Email
-     
+     - Salon_ID: unique salon code
+     - Salon_Name: salon name
+     - Salon_Email: salon email
+
+      Note: mock data     
