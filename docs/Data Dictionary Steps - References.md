@@ -1,20 +1,15 @@
 ## Steps To Consider When Creating A Data Dictionary:
 
     1. Identify data sources and data elements
-       ◦ Catalog all relevant data sources and list the data elements (tables, columns, attributes) for each source.
+       ◦ Catalog all relevant data sources and list the data elements (tables, columns, attributes) for each source. 
 
     2. Define data element attributes
-        ◦ For each data element, document attributes like:
+        ◦ For each data element, document attributes:
             ▪ Name
             ▪ Description
-            ▪ Data type
             ▪ Format
-            ▪ Units
-            ▪ Source
-            ▪ Owner
-            ▪ Usage
-            ▪ Constraints
-            ▪ Relationships to other data elements
+            ▪ Data type
+            ▪ Other attributes to consider: Units, Source (system/origin), Owner, Usage, Constraints, Relationships to other data elements 
 
     3. Establish a standardized format and taxonomy
         ◦ Develop consistent naming conventions, formats, and taxonomies for data elements and attributes.
