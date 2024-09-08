@@ -9,7 +9,8 @@
             ▪ Description
             ▪ Format
             ▪ Data type
-            ▪ Other attributes to consider: Units, Source (system/origin), Owner, Usage, Constraints, Relationships to other data elements 
+            ▪ Other attributes to consider: Units, Source (system/origin), Owner, 
+              Usage, Constraints, Relationships to other data elements 
 
     3. Establish a standardized format and taxonomy
         ◦ Develop consistent naming conventions, formats, and taxonomies for data elements and attributes.
