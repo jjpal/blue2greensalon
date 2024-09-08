@@ -17,8 +17,9 @@
      - client_code:	unique client code
      - stylist: staff member to provide the service
      - service_code: service code for the booking
-     - booking_date: date the service is scheduled to be provided.	
-     - booking_time: time the service is scheduled to be provided.
+     - booking_date: date the service is scheduled to be provided
+     - booking_time: time the service is scheduled to be provided
+  - Format: CSV  
 
 * service_listings
   - Columns:
@@ -29,6 +30,7 @@
      - service_category: service category descriptor	
      - service_price: price of the service (Note: price varies across stylists)
      - stPrd_cost: amount the stylist pays to the salon for professional product costs.
+  - Format: CSV   
 
 * product_listings
   - Columns:
@@ -46,6 +48,7 @@
      - unit_cost: the unit cost of the product
      - prod_cog: the total cost of all units
      - ytd_sales: year to date sales
+   - Format: CSV   
 
 * receipt_transactions
   - Columns:
@@ -59,6 +62,7 @@
      - tax1: Federal tax amount
      - tax2: local tax amount
      - payment_method: way client paid for service or product
+  - Format: CSV   
 
      Note: enriched with additional datasets  
 
@@ -72,6 +76,7 @@
      - appointment_status: indicator for appointmenta that were cancelled or missed
      - canceled_by: staff that received call for cancellation
      - notification_days: number of days before appointment or -1 for no-shows
+  - Format: CSV   
 
 * personnel
   - Columns:
@@ -82,7 +87,8 @@
      - personnel_phone_number: hashed phone number
      - start_date: staff start date	
      - years_experience: staff years of experience
-        
+  - Format: CSV
+
       Note: partially extracted of original dataset and enriched with additional datasets  
       
 * reviews
@@ -92,7 +98,8 @@
      - review: client review
      - review_datetime: date of review
      - service_id: unique service identifier
-      
+  - Format: CSV
+
       Note: enriched with additional datasets 
 
 * locations
@@ -100,5 +107,6 @@
      - salon_id: unique salon code
      - salon_name: salon name
      - salon_email: salon email
+  - Format: CSV   
 
       Note: mock data     
