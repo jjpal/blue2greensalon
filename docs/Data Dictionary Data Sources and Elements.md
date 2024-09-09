@@ -112,3 +112,12 @@ client_code	service	staff	booking_date	appointment_status	event_date	canceled_by
   - Format: CSV   
 
       Note: mock data     
+
+
+----------
+Data Sources
+
+[Salon originaldataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
+
+Additional Data Sources (partially extracted for enrichment)
+[]()
