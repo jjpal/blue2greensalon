@@ -64,12 +64,12 @@
      - tax1: Federal tax amount
      - tax2: local tax amount
      - payment_method: way client paid for service or product
-  - Format: CSV   
+   - Format: CSV   
 
      Note: enriched with additional datasets  
-client_code	service	staff	booking_date	appointment_status	event_date	canceled_by	notification_days
+
 * cancel_noshows
-  - Columns:    
+  - Columns:
      - client_code: unique client code
      - service: service code for the booking
      - staff: member who was to provide the service
@@ -78,7 +78,7 @@ client_code	service	staff	booking_date	appointment_status	event_date	canceled_by
      - event_date: date or cancellation or missed appointment
      - canceled_by: staff that received call for cancellation
      - notification_days: number of days before appointment or -1 for no-shows
-  - Format: CSV   
+   - Format: CSV   
 
 * personnel
   - Columns:
@@ -100,7 +100,7 @@ client_code	service	staff	booking_date	appointment_status	event_date	canceled_by
      - review: client review
      - review_datetime: date of review
      - service_id: unique service identifier
-  - Format: CSV
+   - Format: CSV
 
       Note: enriched with additional datasets 
 
@@ -109,7 +109,7 @@ client_code	service	staff	booking_date	appointment_status	event_date	canceled_by
      - salon_id: unique salon code
      - salon_name: salon name
      - salon_email: salon email
-  - Format: CSV   
+   - Format: CSV   
 
       Note: mock data     
 
@@ -117,7 +117,7 @@ client_code	service	staff	booking_date	appointment_status	event_date	canceled_by
 ----------
 Data Sources
 
-[Salon originaldataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
+[Salon original dataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
 
 Additional Data Sources (partially extracted for enrichment)
 []()
