@@ -77,12 +77,7 @@ To integrate eco-friendly practices into the salon's operations, the salon is co
 
 
 
-Data
 
-[Salon originaldataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
-
-Additional Sources
-[]()
 
 
 
