@@ -18,7 +18,9 @@
      - stylist: staff member to provide the service
      - service_code: service code for the booking
      - booking_date: date the service is scheduled to be provided
-     - booking_time: time the service is scheduled to be provided
+     - booking_time_mer: time the service (12-hour convention + meridiem) scheduled to be provided
+     - booking_time: time (only) the service scheduled to be provided
+     - tod: meridiem AM or PM 
   - Format: CSV  
 
 * service_listings
@@ -65,15 +67,15 @@
   - Format: CSV   
 
      Note: enriched with additional datasets  
-
+client_code	service	staff	booking_date	appointment_status	event_date	canceled_by	notification_days
 * cancel_noshows
   - Columns:    
      - client_code: unique client code
-     - cervice: service code for the booking
-     - stylist: staff member who was to provide the service
+     - service: service code for the booking
+     - staff: member who was to provide the service
      - booking_date: date the service was scheduled to be provided
-     - event_date: date or cancellation or missed appointment
      - appointment_status: indicator for appointmenta that were cancelled or missed
+     - event_date: date or cancellation or missed appointment
      - canceled_by: staff that received call for cancellation
      - notification_days: number of days before appointment or -1 for no-shows
   - Format: CSV   
