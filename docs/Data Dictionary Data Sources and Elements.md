@@ -31,7 +31,7 @@
      - service_desc: service name
      - service_category: service category descriptor	
      - service_price: price of the service (Note: price varies across stylists)
-     - stPrd_cost: amount the stylist pays to the salon for professional product costs.
+     - stPrd_cost: amount the stylist pays to the salon for professional product costs
   - Format: CSV   
 
 * product_listings
@@ -52,7 +52,7 @@
      - ytd_sales: year to date sales
    - Format: CSV   
 
-* receipt_transactions
+* receipt_transactions 
   - Columns:
      - transaction_receipt_id: receipt number
      - payment_date: date of the transaction
@@ -65,10 +65,9 @@
      - tax2: local tax amount
      - payment_method: way client paid for service or product
    - Format: CSV   
+      **Note**: enriched with additional datasets  
 
-     Note: enriched with additional datasets  
-
-* cancel_noshows
+* cancel_noshows 
   - Columns:
      - client_code: unique client code
      - service: service code for the booking
@@ -80,7 +79,7 @@
      - notification_days: number of days before appointment or -1 for no-shows
    - Format: CSV   
 
-* personnel
+* personnel 
   - Columns:
      - personnel_id: unique personnel code	
      - personnel_preferred_name: staff member name
@@ -89,9 +88,8 @@
      - personnel_phone_number: hashed phone number
      - start_date: staff start date	
      - years_experience: staff years of experience
-   - Format: CSV   
-
-      Note: partially extracted of original dataset and enriched with additional datasets  
+   - Format: CSV
+      **Note**: partially extracted of original dataset and enriched with additional datasets  
       
 * reviews
   - Columns:
@@ -100,9 +98,8 @@
      - review: client review
      - review_datetime: date of review
      - service_id: unique service identifier
-   - Format: CSV   
-
-      Note: enriched with additional datasets 
+   - Format: CSV
+      **Note**: enriched with additional datasets 
 
 * locations
   - Columns:
@@ -110,8 +107,7 @@
      - salon_name: salon name
      - salon_email: salon email
    - Format: CSV   
-
-      Note: mock data     
+      **Note**: mock data     
 
 
 ----------
