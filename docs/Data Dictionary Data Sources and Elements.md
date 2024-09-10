@@ -88,7 +88,7 @@
      - personnel_phone_number: hashed phone number
      - start_date: staff start date	
      - years_experience: staff years of experience
-   - Format: CSV
+   - Format: CSV   
       **Note**: partially extracted of original dataset and enriched with additional datasets  
       
 * reviews
@@ -98,7 +98,7 @@
      - review: client review
      - review_datetime: date of review
      - service_id: unique service identifier
-   - Format: CSV
+   - Format: CSV   
       **Note**: enriched with additional datasets 
 
 * locations
