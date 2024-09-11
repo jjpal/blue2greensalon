@@ -9,6 +9,7 @@
 - personnel
 - reviews
 - locations
+- promotions
 
 ## Tables with Corresponding Columns (enhanced datasets)
 * bookings 
@@ -20,7 +21,8 @@
      - booking_date: date the service is scheduled to be provided
      - booking_time_mer: time the service (12-hour convention + meridiem) scheduled to be provided
      - booking_time: time (only) the service scheduled to be provided
-     - tod: meridiem AM or PM 
+     - tod: meridiem AM or PM
+     - service_id: unique service identifier 
   - Format: CSV  
 
 * service_listings
@@ -42,11 +44,11 @@
      - product_description: product description
      - prod_supplier: product supplier
      - prod_brand: product brand	
-     - product_category: product category
-     - product_price: the regular price
+     - prod_category: product category
+     - prod_price: the regular price
      - prod_onHand: the number of units on hand
-     - prod_min: minimum recommended product inventory	
-     - prod_max: maximum recommended product inventory	
+     - prod_min_qty: minimum recommended product inventory	
+     - prod_max_qty: maximum recommended product inventory	
      - unit_cost: the unit cost of the product
      - prod_cog: the total cost of all units
      - ytd_sales: year to date sales
@@ -54,16 +56,22 @@
 
 * receipt_transactions 
   - Columns:
-     - transaction_receipt_id: receipt number
+     - receipt_id: receipt number
      - payment_date: date of the transaction
      - receipt_description: service or product name
      - client_code: unique client code
      - stylist: staff member who provided the service or sold the product
-     - receipt_quantity: number of services or product sold
+     - receipt_qty: number of services or product sold
      - receipt_amount: the total dollar amount
-     - tax1: Federal tax amount
+     - tax1: federal tax amount
      - tax2: local tax amount
      - payment_method: way client paid for service or product
+     - staff_id: 
+     - service_id: 
+     - promo_id: 
+     - promo_name: 
+     - discount_dlr_amt: 
+     - salon_id: 
    - Format: CSV   
       **Note**: enriched with additional datasets  
 
@@ -71,21 +79,22 @@
   - Columns:
      - client_code: unique client code
      - service: service code for the booking
-     - staff: member who was to provide the service
+     - stylist: member who was to provide the service
      - booking_date: date the service was scheduled to be provided
      - appointment_status: indicator for appointmenta that were cancelled or missed
      - event_date: date or cancellation or missed appointment
      - canceled_by: staff that received call for cancellation
      - notification_days: number of days before appointment or -1 for no-shows
+     - service_id: unique service identifier 
    - Format: CSV   
 
 * personnel 
   - Columns:
-     - personnel_id: unique personnel code	
-     - personnel_preferred_name: staff member name
+     - staff_id: unique personnel code	
+     - preferred_name: staff member name
      - title: staff title
-     - personnel_address: hashed address
-     - personnel_phone_number: hashed phone number
+     - staff_address: hashed address
+     - staff_phone_number: hashed phone number
      - start_date: staff start date	
      - years_experience: staff years of experience
    - Format: CSV   
@@ -96,7 +105,7 @@
      - review_id: unique review code
      - rating: client rating
      - review: client review
-     - review_datetime: date of review
+     - review_date: date of review
      - service_id: unique service identifier
    - Format: CSV   
       **Note**: enriched with additional datasets 
@@ -108,6 +117,15 @@
      - salon_email: salon email
    - Format: CSV   
       **Note**: mock data     
+
+* promotions
+  - Columns:
+     - promo_id: unique promo code
+     - promo_name: campaign description
+     - discount_dlr_amt: discount dollar amount
+     - isActive_promo: Is the promotion active
+   - Format: CSV   
+      **Note**: mock data          
 
 
 ----------
