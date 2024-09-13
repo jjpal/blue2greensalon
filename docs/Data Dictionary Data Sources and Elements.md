@@ -128,12 +128,14 @@
       **Note**: mock data          
 
 ----------
+
 <p align="center">
 <h3>Data Type Reference for BigQuery And Snowflake</h3>
 </p>
+
 ----------
 
-[BigQuery data types:](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types)
+[BigQuery Data Types:](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types)
 
 - INT64: 64-bit signed integer, for storing values like product IDs, counts, or years without decimals.
 - NUMERIC: Decimal data type with 38 digits of precision and 9 digits of scale, ideal for exact calculations
@@ -150,7 +152,7 @@
 - INTERVAL: A duration of time, without referring to any specific point in time.
 - GEOGRAPHY: A collection of points, linestrings, and polygons, represented as a point set, or a subset of the surface of the Earth.
 
-[Snowflake Datatypes](https://docs.snowflake.com/en/sql-reference/intro-summary-data-types)
+[Snowflake Data Types](https://docs.snowflake.com/en/sql-reference/intro-summary-data-types)
 
 - Numeric data types
  - NUMBER, DECIMAL, NUMERIC
