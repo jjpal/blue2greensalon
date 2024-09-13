@@ -129,8 +129,9 @@
 
 ----------
 <p align="center">
-Data Type Reference for BigQuery And Snowflake
+<h3>Data Type Reference for BigQuery And Snowflake</h3>
 </p>
+----------
 
 [BigQuery data types:](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types)
 
