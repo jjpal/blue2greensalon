@@ -1,4 +1,4 @@
-# Data Dictionary - Data Sources and Elements
+# Data Dictionary - Tables and Elements
 
 ## Tables
 - bookings
