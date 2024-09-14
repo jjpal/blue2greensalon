@@ -41,7 +41,7 @@
      - product_id: unique product identifier	
      - isActive_product: Is the product active	
      - product_code: product code 
-     - product_description: product description
+     - product_desc: product description
      - prod_supplier: product supplier
      - prod_brand: product brand	
      - prod_category: product category
@@ -58,7 +58,7 @@
   - Columns:
      - receipt_id: receipt number
      - payment_date: date of the transaction
-     - receipt_description: service or product name
+     - receipt_desc: description of service or product name
      - client_code: unique client code
      - stylist: staff member who provided the service or sold the product
      - receipt_qty: number of services or product sold
@@ -66,11 +66,11 @@
      - tax1: federal tax amount
      - tax2: local tax amount
      - payment_method: way client paid for service or product
-     - staff_id: 
      - service_id: 
      - promo_id: 
      - promo_name: 
-     - discount_dlr_amt: 
+     - disc_dlr_amt: discount dollar amount
+     - staff_id: 
      - salon_id: 
    - Format: CSV   
       **Note**: enriched with additional datasets  
@@ -78,14 +78,13 @@
 * cancel_noshows 
   - Columns:
      - client_code: unique client code
-     - service: service code for the booking
+     - service_code: service code for the booking
      - stylist: member who was to provide the service
      - booking_date: date the service was scheduled to be provided
      - appointment_status: indicator for appointmenta that were cancelled or missed
      - event_date: date or cancellation or missed appointment
      - canceled_by: staff that received call for cancellation
      - notification_days: number of days before appointment or -1 for no-shows
-     - service_id: unique service identifier 
    - Format: CSV   
 
 * personnel 
@@ -130,7 +129,7 @@
 ----------
 
 <p align="center">
-<h3>Data Type Reference for BigQuery And Snowflake</h3>
+  <h3>Data Type Reference for BigQuery And Snowflake</h3>
 </p>
 
 ----------
