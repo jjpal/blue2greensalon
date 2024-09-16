@@ -66,12 +66,12 @@
      - tax1: federal tax amount
      - tax2: local tax amount
      - payment_method: way client paid for service or product
-     - service_id: 
-     - promo_id: 
-     - promo_name: 
+     - service_id: unique service identifier	
+     - promo_id: unique promo code
+     - promo_name: campaign description
      - disc_dlr_amt: discount dollar amount
-     - staff_id: 
-     - salon_id: 
+     - staff_id: unique personnel code	
+     - salon_id: unique salon code
    - Format: CSV   
       **Note**: enriched with additional datasets  
 
