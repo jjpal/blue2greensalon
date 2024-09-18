@@ -70,7 +70,8 @@ Data Sources
 
 [Salon original dataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
 
-** Future Bookings (All Clients)0.csv **
+**Future Bookings (All Clients)0.csv**
+* Columns
  - Code
  - Staff
  - Service
@@ -78,7 +79,8 @@ Data Sources
  - Time
  - TimeInt
 
-** Service Listing0.csv **
+**Service Listing0.csv**
+* Columns
  - IsActive
  - Code
  - Desc
@@ -86,7 +88,8 @@ Data Sources
  - Price
  - Cost
 
-** Product Listing (Retail0.csv) **
+**Product Listing (Retail0.csv)**
+* Columns
  - IsActive
  - Code
  - Description
@@ -102,7 +105,8 @@ Data Sources
  - YTD
  - Package
 
-** Receipt Transactions0.csv **
+**Receipt Transactions0.csv**
+* Columns
  - Receipt
  - Date
  - Description
@@ -113,7 +117,8 @@ Data Sources
  - GST
  - PST
 
-** Client Cancellations0.csv **
+**Client Cancellations0.csv**
+* Columns
  - Cancel Date 
  - Code
  - Service
@@ -122,13 +127,15 @@ Data Sources
  - Canceled By
  - Days
 
-** No-Show Report0.csv **
+**No-Show Report0.csv**
+* Columns
  - Date
  - Code
  - Service
  - Staff
 
-** hair_salon_no_show_wrangled_df.csv **
+**hair_salon_no_show_wrangled_df.csv**
+* Columns
  - Booking index
  - book_tod
  - book_dow
@@ -151,7 +158,6 @@ Data Sources
  - last_cumnoshow
  - noshow
  - recency
-
 
 Additional Data Sources (partially extracted for enrichment)
 []()
