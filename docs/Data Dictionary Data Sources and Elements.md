@@ -126,4 +126,23 @@
    - Format: CSV   
       **Note**: mock data          
 
+----------
+	bookings	
+----------
+| data type		| columns	 		      | 	definition									                 |
+|-------------|-------------------|------------------------------------------------|
+| STRING	    | booking_id  		  | 	unique booking identifer					           |	
+| STRING	 	  | client_code		    |	  unique client code							             |
+| STRING	 	  | stylist: staff 	  |	  staff member to provide the service			     |	
+| STRING	 	  | service_code		  | 	service code for the booking				         |
+| DATE	 		  | booking_date		  | 	date the service is scheduled to be provided |
+| STRING	 	  | booking_time_mer	|	  time the service is scheduled to be provided |
+| TIME	 		  | booking_time		  | 	time the service is scheduled to be provided |
+| TIME	 		  | tod				        | 	meridiem AM or PM							               |
+| STRING		  | service_id		    | 	unique service identifier					           |
 
+----------
+	service_listings	
+----------
+| data type		| columns	 		      | 	definition									                 |
+|-------------|-------------------|------------------------------------------------|
