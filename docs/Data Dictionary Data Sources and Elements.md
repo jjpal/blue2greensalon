@@ -127,7 +127,7 @@
       **Note**: mock data          
 
 ----------
-	bookings	
+bookings	
 ----------
 | data type		| columns	 		      | 	definition									                 |
 |-------------|-------------------|------------------------------------------------|
@@ -142,7 +142,7 @@
 | STRING		  | service_id		    | 	unique service identifier					           |
 
 ----------
-	service_listings	
+service_listings	
 ----------
 | data type		| columns	 		      | 	definition									                 |
 |-------------|-------------------|------------------------------------------------|
