@@ -126,7 +126,7 @@
    - Format: CSV   
       **Note**: mock data          
 
-----------
+
 bookings	
 ----------
 | data type		| columns	 		      | 	definition									                 |
@@ -141,7 +141,7 @@ bookings
 | TIME	 		  | tod				        | 	meridiem AM or PM							               |
 | STRING		  | service_id		    | 	unique service identifier					           |
 
-----------
+
 service_listings	
 ----------
 | data type		| columns	 		      | 	definition									                 |
