@@ -126,10 +126,11 @@
    - Format: CSV   
       **Note**: mock data          
 
+----------
 
 bookings	
 ----------
-| data type		| columns	 		      | 	
+| data type		| column	 		      | 	
 |-------------|-------------------|
 | STRING	    | booking_id  		  |
 | STRING	 	  | client_code		    |
@@ -146,3 +147,10 @@ service_listings
 ----------
 | data type		| columns	 		      |
 |-------------|-------------------|
+| STRING      |	service_id        |
+| BOOLEAN     |	isActive_service  |
+| STRING	    | service_code      |
+| STRING      |	service_desc      |
+| STRING	    | service_category  |
+| FLOAT	      | service_price     |
+| FLOAT       |	stPrd_cost        |
