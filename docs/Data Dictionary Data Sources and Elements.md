@@ -139,9 +139,8 @@ bookings
 | DATE	 		  | booking_date		  |
 | STRING	 	  | booking_time_mer	|
 | TIME	 		  | booking_time		  |
-| TIME	 		  | tod				        |
+| STRING	 	  | tod				        |
 | STRING		  | service_id		    |
-
 
 service_listings	
 ----------
@@ -154,3 +153,83 @@ service_listings
 | STRING	    | service_category  |
 | FLOAT	      | service_price     |
 | FLOAT       |	stPrd_cost        |
+
+product_listings
+----------
+| data type		| columns	 		      |
+|-------------|-------------------|
+| STRING      | product_id        |
+| BOOLEAN     |	isActive_product  |
+| STRING	    | product_code      |
+| STRING	    | product_desc      |
+| STRING	    | prod_supplier     |
+| STRING	    | prod_brand        |
+| STRING	    | prod_category     |
+| FLOAT       | prod_price        |
+| INT         | prod_onHand       |
+| INT         | prod_min_qty      |
+| INT         | prod_max_qty      |
+| FLOAT       | unit_cost         |
+| FLOAT       | prod_cog          |
+| FLOAT       | ytd_sales         |
+
+receipt_transactions
+----------
+| data type		| column	 		      | 	
+|-------------|-------------------|
+| STRING	    | receipt_id        |
+| BOOLEAN     | payment_date      |
+| STRING	    | receipt_desc      |  
+| STRING	    | client_code       |   
+| STRING	    | stylist           |   
+| INT         | receipt_qty       |  	
+| INT   	    | receipt_amount    |   
+| FLOAT       | tax1              |
+| FLOAT       | tax2              |
+| STRING	    | payment_method    |
+| STRING	    | service_id        |   
+| STRING	    | promo_id          |
+| STRING	    | promo_name        |   
+| FLOAT       | disc_dlr_amt      |    
+| STRING	    | staff_id          |
+| STRING	    | salon_id          |
+    	
+cancel_noshows
+----------
+| data type		| column	 		       | 
+|-------------|--------------------|
+| STRING	    | client_code        |
+| STRING	    | service_code       |
+| STRING	    | stylist            |
+| DATE  	 	  | booking_date       |
+| STRING	    | appointment_status |
+| DATE  	 	  | event_date         | 
+| STRING	    | canceled_by        |
+| INT   	    | notification_days  |
+
+personnel
+----------
+| data type		| column	 		      | 
+|-------------|-------------------|
+
+
+
+reviews
+----------
+| data type		| column	 		      | 
+|-------------|-------------------|
+
+
+
+locations
+----------
+| data type		| column	 		      |
+|-------------|-------------------| 
+
+
+
+
+promotions
+----------
+| data type		| column	 		      | 
+|-------------|-------------------|
