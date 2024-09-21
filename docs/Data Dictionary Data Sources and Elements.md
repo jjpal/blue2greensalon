@@ -209,27 +209,40 @@ cancel_noshows
 
 personnel
 ----------
-| data type		| column	 		      | 
-|-------------|-------------------|
-
-
+| data type		 | column	  		      | 
+|--------------|--------------------|
+| STRING	     | staff_id           |
+| STRING	     | preferred_name     |
+| STRING	     | title              |
+| STRING	     | staff_address      |
+| STRING	     | staff_phone_number |
+| DATE  	 	   | start_date         |
+| INT   	     | years_experience   |
 
 reviews
 ----------
 | data type		| column	 		      | 
 |-------------|-------------------|
-
-
+| STRING	    | review_id         |
+| INT   	    | rating            |
+| STRING	    | review            |
+| DATE  	 	  | review_date       |
+| STRING	    | service_id        |
 
 locations
 ----------
 | data type		| column	 		      |
 |-------------|-------------------| 
-
-
-
+| STRING	    | salon_id          |
+| STRING	    | salon_name        |
+| STRING	    | salon_email       |
 
 promotions
 ----------
 | data type		| column	 		      | 
 |-------------|-------------------|
+| STRING	    |  promo_id         |
+| STRING	    |  promo_name       |
+| STRING	    |  discount_dlr_amt |
+| STRING	    |  isActive_promo   |
+      
