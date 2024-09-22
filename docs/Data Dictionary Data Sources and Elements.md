@@ -22,7 +22,6 @@
      - booking_time_mer: time the service (12-hour convention + meridiem) scheduled to be provided
      - booking_time: time (only) the service scheduled to be provided
      - tod: meridiem AM or PM
-     - service_id: unique service identifier 
   - Format: CSV  
 
 * service_listings
@@ -68,7 +67,6 @@
      - payment_method: way client paid for service or product
      - service_id: unique service identifier	
      - promo_id: unique promo code
-     - promo_name: campaign description
      - disc_dlr_amt: discount dollar amount
      - staff_id: unique personnel code	
      - salon_id: unique salon code
@@ -123,6 +121,7 @@
      - promo_name: campaign description
      - discount_dlr_amt: discount dollar amount
      - isActive_promo: Is the promotion active
+     - last_active: date campaign was last active
    - Format: CSV   
       **Note**: mock data          
 
@@ -134,13 +133,12 @@ bookings
 |-------------|-------------------|
 | STRING	    | booking_id  		  |
 | STRING	 	  | client_code		    |
-| STRING	 	  | stylist: staff 	  |
+| STRING	 	  | stylist        	  |
 | STRING	 	  | service_code		  |
 | DATE	 		  | booking_date		  |
 | STRING	 	  | booking_time_mer	|
 | TIME	 		  | booking_time		  |
 | STRING	 	  | tod				        |
-| STRING		  | service_id		    |
 
 service_listings	
 ----------
@@ -188,8 +186,7 @@ receipt_transactions
 | FLOAT       | tax2              |
 | STRING	    | payment_method    |
 | STRING	    | service_id        |   
-| STRING	    | promo_id          |
-| STRING	    | promo_name        |   
+| STRING	    | promo_id          |  
 | FLOAT       | disc_dlr_amt      |    
 | STRING	    | staff_id          |
 | STRING	    | salon_id          |
@@ -245,4 +242,4 @@ promotions
 | STRING	    |  promo_name       |
 | STRING	    |  discount_dlr_amt |
 | STRING	    |  isActive_promo   |
-      
+| STRING	    |  last_active      |      
