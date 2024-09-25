@@ -244,3 +244,4 @@ promotions
 | STRING	    |  discount_dlr_amt |
 | STRING	    |  isActive_promo   |
 | STRING	    |  last_active      |      
+
