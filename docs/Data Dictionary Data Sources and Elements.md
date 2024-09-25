@@ -66,6 +66,7 @@
      - tax2: local tax amount
      - payment_method: way client paid for service or product
      - service_id: unique service identifier	
+     - product_id: unique product identifier
      - promo_id: unique promo code
      - disc_dlr_amt: discount dollar amount
      - staff_id: unique personnel code	
