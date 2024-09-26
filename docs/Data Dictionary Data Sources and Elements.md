@@ -48,7 +48,7 @@ bookings
      - std_prd_cost: amount the stylist pays to the salon for professional product costs
   - Format: CSV   
 
-  service_listings	
+service_listings	
 ----------
 | data type		| columns	 		      |
 |-------------|-------------------|
@@ -149,7 +149,6 @@ receipt_transactions
      - canceled_by: staff that received call for cancellation
      - notification_days: number of days before appointment or -1 for no-shows
    - Format: CSV   
-
        	
 cancel_noshows
 ----------
@@ -215,6 +214,7 @@ reviews
      - salon_email: salon email
    - Format: CSV   
       **Note**: mock data     
+
 locations
 ----------
 | data type		| column	 		      |
@@ -243,5 +243,5 @@ promotions
 | STRING	    |  is_active_promo  |
 | STRING	    |  last_active      |     
 
----------- 
+
 
