@@ -27,18 +27,18 @@
 * service_listings
   - Columns:
      - service_id: unique service identifier	
-     - isActive_service: Is the service activee	
+     - is_active_service: Is the service activee	
      - service_code: service code for the booking	
      - service_desc: service name
      - service_category: service category descriptor	
      - service_price: price of the service (Note: price varies across stylists)
-     - stPrd_cost: amount the stylist pays to the salon for professional product costs
+     - std_prd_cost: amount the stylist pays to the salon for professional product costs
   - Format: CSV   
 
 * product_listings
   - Columns:
      - product_id: unique product identifier	
-     - isActive_product: Is the product active	
+     - is_active_product: Is the product active	
      - product_code: product code 
      - product_desc: product description
      - prod_supplier: product supplier
@@ -121,7 +121,7 @@
      - promo_id: unique promo code
      - promo_name: campaign description
      - discount_dlr_amt: discount dollar amount
-     - isActive_promo: Is the promotion active
+     - is_active_promo: Is the promotion active
      - last_active: date campaign was last active
    - Format: CSV   
       **Note**: mock data          
@@ -146,19 +146,19 @@ service_listings
 | data type		| columns	 		      |
 |-------------|-------------------|
 | STRING      |	service_id        |
-| BOOLEAN     |	isActive_service  |
+| BOOLEAN     |	is_active_service |
 | STRING	    | service_code      |
 | STRING      |	service_desc      |
 | STRING	    | service_category  |
 | FLOAT	      | service_price     |
-| FLOAT       |	stPrd_cost        |
+| FLOAT       |	std_prd_cost      |
 
 product_listings
 ----------
 | data type		| columns	 		      |
 |-------------|-------------------|
 | STRING      | product_id        |
-| BOOLEAN     |	isActive_product  |
+| BOOLEAN     |	is_active_product |
 | STRING	    | product_code      |
 | STRING	    | product_desc      |
 | STRING	    | prod_supplier     |
@@ -242,6 +242,6 @@ promotions
 | STRING	    |  promo_id         |
 | STRING	    |  promo_name       |
 | STRING	    |  discount_dlr_amt |
-| STRING	    |  isActive_promo   |
+| STRING	    |  is_active_promo  |
 | STRING	    |  last_active      |      
 
