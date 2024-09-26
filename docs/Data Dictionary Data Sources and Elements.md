@@ -24,6 +24,19 @@
      - tod: meridiem AM or PM
   - Format: CSV  
 
+bookings	
+----------
+| data type		| column	 		      | 	
+|-------------|-------------------|
+| STRING	    | booking_id  		  |
+| STRING	 	  | client_code		    |
+| STRING	 	  | stylist        	  |
+| STRING	 	  | service_code		  |
+| DATE	 		  | booking_date		  |
+| STRING	 	  | booking_time_mer	|
+| TIME	 		  | booking_time		  |
+| STRING	 	  | tod				        |
+
 * service_listings
   - Columns:
      - service_id: unique service identifier	
@@ -34,6 +47,18 @@
      - service_price: price of the service (Note: price varies across stylists)
      - std_prd_cost: amount the stylist pays to the salon for professional product costs
   - Format: CSV   
+
+  service_listings	
+----------
+| data type		| columns	 		      |
+|-------------|-------------------|
+| STRING      |	service_id        |
+| BOOLEAN     |	is_active_service |
+| STRING	    | service_code      |
+| STRING      |	service_desc      |
+| STRING	    | service_category  |
+| FLOAT	      | service_price     |
+| FLOAT       |	std_prd_cost      |
 
 * product_listings
   - Columns:
@@ -52,6 +77,25 @@
      - prod_cog: the total cost of all units
      - ytd_sales: year to date sales
    - Format: CSV   
+
+product_listings
+----------
+| data type		| columns	 		      |
+|-------------|-------------------|
+| STRING      | product_id        |
+| BOOLEAN     |	is_active_product |
+| STRING	    | product_code      |
+| STRING	    | product_desc      |
+| STRING	    | prod_supplier     |
+| STRING	    | prod_brand        |
+| STRING	    | prod_category     |
+| FLOAT       | prod_price        |
+| INT         | prod_onHand       |
+| INT         | prod_min_qty      |
+| INT         | prod_max_qty      |
+| FLOAT       | unit_cost         |
+| FLOAT       | prod_cog          |
+| FLOAT       | ytd_sales         |
 
 * receipt_transactions 
   - Columns:
@@ -74,104 +118,6 @@
    - Format: CSV   
       **Note**: enriched with additional datasets  
 
-* cancel_noshows 
-  - Columns:
-     - client_code: unique client code
-     - service_code: service code for the booking
-     - stylist: member who was to provide the service
-     - booking_date: date the service was scheduled to be provided
-     - appointment_status: indicator for appointmenta that were cancelled or missed
-     - event_date: date or cancellation or missed appointment
-     - canceled_by: staff that received call for cancellation
-     - notification_days: number of days before appointment or -1 for no-shows
-   - Format: CSV   
-
-* personnel 
-  - Columns:
-     - staff_id: unique personnel code	
-     - preferred_name: staff member name
-     - title: staff title
-     - staff_address: hashed address
-     - staff_phone_number: hashed phone number
-     - start_date: staff start date	
-     - years_experience: staff years of experience
-   - Format: CSV   
-      **Note**: partially extracted of original dataset and enriched with additional datasets  
-      
-* reviews
-  - Columns:
-     - review_id: unique review code
-     - rating: client rating
-     - review: client review
-     - review_date: date of review
-     - service_id: unique service identifier
-   - Format: CSV   
-      **Note**: enriched with additional datasets 
-
-* locations
-  - Columns:
-     - salon_id: unique salon code
-     - salon_name: salon name
-     - salon_email: salon email
-   - Format: CSV   
-      **Note**: mock data     
-
-* promotions
-  - Columns:
-     - promo_id: unique promo code
-     - promo_name: campaign description
-     - discount_dlr_amt: discount dollar amount
-     - is_active_promo: Is the promotion active
-     - last_active: date campaign was last active
-   - Format: CSV   
-      **Note**: mock data          
-
-----------
-
-bookings	
-----------
-| data type		| column	 		      | 	
-|-------------|-------------------|
-| STRING	    | booking_id  		  |
-| STRING	 	  | client_code		    |
-| STRING	 	  | stylist        	  |
-| STRING	 	  | service_code		  |
-| DATE	 		  | booking_date		  |
-| STRING	 	  | booking_time_mer	|
-| TIME	 		  | booking_time		  |
-| STRING	 	  | tod				        |
-
-service_listings	
-----------
-| data type		| columns	 		      |
-|-------------|-------------------|
-| STRING      |	service_id        |
-| BOOLEAN     |	is_active_service |
-| STRING	    | service_code      |
-| STRING      |	service_desc      |
-| STRING	    | service_category  |
-| FLOAT	      | service_price     |
-| FLOAT       |	std_prd_cost      |
-
-product_listings
-----------
-| data type		| columns	 		      |
-|-------------|-------------------|
-| STRING      | product_id        |
-| BOOLEAN     |	is_active_product |
-| STRING	    | product_code      |
-| STRING	    | product_desc      |
-| STRING	    | prod_supplier     |
-| STRING	    | prod_brand        |
-| STRING	    | prod_category     |
-| FLOAT       | prod_price        |
-| INT         | prod_onHand       |
-| INT         | prod_min_qty      |
-| INT         | prod_max_qty      |
-| FLOAT       | unit_cost         |
-| FLOAT       | prod_cog          |
-| FLOAT       | ytd_sales         |
-
 receipt_transactions
 ----------
 | data type		| column	 		      | 	
@@ -191,7 +137,20 @@ receipt_transactions
 | FLOAT       | disc_dlr_amt      |    
 | STRING	    | staff_id          |
 | STRING	    | salon_id          |
-    	
+
+* cancel_noshows 
+  - Columns:
+     - client_code: unique client code
+     - service_code: service code for the booking
+     - stylist: member who was to provide the service
+     - booking_date: date the service was scheduled to be provided
+     - appointment_status: indicator for appointmenta that were cancelled or missed
+     - event_date: date or cancellation or missed appointment
+     - canceled_by: staff that received call for cancellation
+     - notification_days: number of days before appointment or -1 for no-shows
+   - Format: CSV   
+
+       	
 cancel_noshows
 ----------
 | data type		| column	 		       | 
@@ -205,6 +164,18 @@ cancel_noshows
 | STRING	    | canceled_by        |
 | INT   	    | notification_days  |
 
+* personnel 
+  - Columns:
+     - staff_id: unique personnel code	
+     - preferred_name: staff member name
+     - title: staff title
+     - staff_address: hashed address
+     - staff_phone_number: hashed phone number
+     - start_date: staff start date	
+     - years_experience: staff years of experience
+   - Format: CSV   
+      **Note**: partially extracted of original dataset and enriched with additional datasets  
+      
 personnel
 ----------
 | data type		 | column	  		      | 
@@ -217,6 +188,16 @@ personnel
 | DATE  	 	   | start_date         |
 | INT   	     | years_experience   |
 
+* reviews
+  - Columns:
+     - review_id: unique review code
+     - rating: client rating
+     - review: client review
+     - review_date: date of review
+     - service_id: unique service identifier
+   - Format: CSV   
+      **Note**: enriched with additional datasets 
+
 reviews
 ----------
 | data type		| column	 		      | 
@@ -227,6 +208,13 @@ reviews
 | DATE  	 	  | review_date       |
 | STRING	    | service_id        |
 
+* locations
+  - Columns:
+     - salon_id: unique salon code
+     - salon_name: salon name
+     - salon_email: salon email
+   - Format: CSV   
+      **Note**: mock data     
 locations
 ----------
 | data type		| column	 		      |
@@ -234,6 +222,16 @@ locations
 | STRING	    | salon_id          |
 | STRING	    | salon_name        |
 | STRING	    | salon_email       |
+
+* promotions
+  - Columns:
+     - promo_id: unique promo code
+     - promo_name: campaign description
+     - discount_dlr_amt: discount dollar amount
+     - is_active_promo: Is the promotion active
+     - last_active: date campaign was last active
+   - Format: CSV   
+      **Note**: mock data          
 
 promotions
 ----------
@@ -243,5 +241,7 @@ promotions
 | STRING	    |  promo_name       |
 | STRING	    |  discount_dlr_amt |
 | STRING	    |  is_active_promo  |
-| STRING	    |  last_active      |      
+| STRING	    |  last_active      |     
+
+---------- 
 
