@@ -1,5 +1,7 @@
 # Data Dictionary - Tables and Elements
 
+Naming convention: snake_case
+
 ## Tables
 - bookings
 - service_listing
@@ -36,7 +38,7 @@ bookings
      - booking_time_mer: time the service (12-hour convention + meridiem) scheduled to be provided
      - booking_time: time (only) the service scheduled to be provided
      - tod: meridiem AM or PM
-  - Format: CSV  
+  - File format: CSV  
 
 service_listings	
 ----------
@@ -59,7 +61,7 @@ service_listings
      - service_category: service category descriptor	
      - service_price: price of the service (Note: price varies across stylists)
      - std_prd_cost: amount the stylist pays to the salon for professional product costs
-  - Format: CSV   
+  - File format: CSV   
 
 product_listings
 ----------
@@ -96,7 +98,7 @@ product_listings
      - unit_cost: the unit cost of the product
      - prod_cog: the total cost of all units
      - ytd_sales: year to date sales
-   - Format: CSV   
+   - File format: CSV   
 
 receipt_transactions
 ----------
@@ -136,7 +138,7 @@ receipt_transactions
      - disc_dlr_amt: discount dollar amount
      - staff_id: unique personnel code	
      - salon_id: unique salon code
-   - Format: CSV   
+   - File format: CSV   
       **Note**: enriched with additional datasets  
        	
 cancel_noshows
@@ -152,7 +154,6 @@ cancel_noshows
 | STRING	    | canceled_by        |
 | INT   	    | notification_days  |
 
-
 * cancel_noshows 
   - Columns:
      - client_code: unique client code
@@ -163,7 +164,7 @@ cancel_noshows
      - event_date: date or cancellation or missed appointment
      - canceled_by: staff that received call for cancellation
      - notification_days: number of days before appointment or -1 for no-shows
-   - Format: CSV  
+   - File format: CSV  
  
 personnel
 ----------
@@ -186,7 +187,7 @@ personnel
      - staff_phone_number: hashed phone number
      - start_date: staff start date	
      - years_experience: staff years of experience
-   - Format: CSV   
+   - File format: CSV   
       **Note**: partially extracted of original dataset and enriched with additional datasets  
 
 reviews
@@ -206,7 +207,7 @@ reviews
      - review: client review
      - review_date: date of review
      - service_id: unique service identifier
-   - Format: CSV   
+   - File format: CSV   
       **Note**: enriched with additional datasets 
 
 locations
@@ -222,7 +223,7 @@ locations
      - salon_id: unique salon code
      - salon_name: salon name
      - salon_email: salon email
-   - Format: CSV   
+   - File format: CSV   
       **Note**: mock data    
 
 promotions
@@ -242,6 +243,15 @@ promotions
      - discount_dlr_amt: discount dollar amount
      - is_active_promo: Is the promotion active
      - last_active: date campaign was last active
-   - Format: CSV   
+   - File format: CSV   
       **Note**: mock data          
 
+----------
+
+- Data taxonomy brainstorming: 
+ - Services
+ - Products
+ - Customers
+ - Receipts
+ - Inventory
+ - Marketing
