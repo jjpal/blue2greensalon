@@ -1,6 +1,6 @@
 # Data Dictionary - Tables and Elements
 
-Naming convention: snake_case
+#### Naming convention: snake_case
 
 ## Tables
 - bookings
@@ -248,7 +248,7 @@ promotions
 
 ----------
 
-- Data taxonomy brainstorming: 
+* Data taxonomy brainstorming: 
  - Services
  - Products
  - Customers
