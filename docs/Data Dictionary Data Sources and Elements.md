@@ -248,10 +248,10 @@ promotions
 
 ----------
 
-* Data taxonomy brainstorming: 
- - Services
- - Products
- - Customers
- - Receipts
- - Inventory
- - Marketing
+*** Data taxonomy brainstorming: 
+  - Services
+  - Products
+  - Customers
+  - Receipts
+  - Inventory
+  - Marketing
