@@ -1,6 +1,7 @@
 # Data Dictionary - Tables and Elements
 
-#### Naming convention: snake_case
+#### Naming convention: 
+    snake_case for schemas, table_names, columns
 
 ## Tables
 - bookings
@@ -42,7 +43,7 @@ bookings
 
 service_listings	
 ----------
-| data type		| columns	 		      |
+| data type		| column	 		      |
 |-------------|-------------------|
 | STRING      |	service_id        |
 | BOOLEAN     |	is_active_service |
@@ -65,7 +66,7 @@ service_listings
 
 product_listings
 ----------
-| data type		| columns	 		      |
+| data type		| column	 		      |
 |-------------|-------------------|
 | STRING      | product_id        |
 | BOOLEAN     |	is_active_product |
@@ -255,3 +256,4 @@ promotions
   - Receipts
   - Inventory
   - Marketing
+  - Accounting
