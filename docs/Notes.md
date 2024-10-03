@@ -72,92 +72,40 @@ Data Sources
 
 **Future Bookings (All Clients)0.csv**
 * Columns
-    - Code
-    - Staff
-    - Service
-    - Date
-    - Time
-    - TimeInt
+    - Code  - Staff  - Service  - Date  - Time  - TimeInt
 
 **Service Listing0.csv**
 * Columns
-    - IsActive
-    - Code
-    - Desc
-    - Cate
-    - Price
-    - Cost
+    - IsActive  - Code  - Desc  - Cate  - Price  - Cost
 
 **Product Listing (Retail0.csv)**
 * Columns
-    - IsActive
-    - Code
-    - Description
-    - Supplier
-    - Brand
-    - Category
-    - Price
-    - On Hand
-    - Minimum
-    - Maximum
-    - Cost
-    - COG
-    - YTD
-    - Package
+    - IsActive  - Code     - Description  - Supplier  - Brand  - Category
+    - Price     - On Hand  - Minimum      - Maximum   - Cost   - COG     
+    - YTD       - Package
 
 **Receipt Transactions0.csv**
 * Columns
-    - Receipt
-    - Date
-    - Description
-    - Client
-    - Staff
-    - Quantity
-    - Amount
-    - GST
-    - PST
+    - Receipt   - Date    - Description  - Client   - Staff
+    - Quantity  - Amount  - GST          - PST
 
 **Client Cancellations0.csv**
 * Columns
-    - Cancel Date 
-    - Code
-    - Service
-    - Staff
-    - Booking Date
-    - Canceled By
-    - Days
+    - Cancel Date   - Code          - Service   - Staff
+    - Booking Date  - Canceled By   - Days
 
 **No-Show Report0.csv**
 * Columns
-    - Date
-    - Code
-    - Service
-    - Staff
+    - Date    - Code    - Service   - Staff
 
 **hair_salon_no_show_wrangled_df.csv**
 * Columns
-    - Booking index
-    - book_tod
-    - book_dow
-    - book_category
-    - book_staff
-    - last_category
-    - last_staff
-    - last_day_services
-    - last_receipt_tot
-    - last_dow
-    - last_tod
-    - last_noshow
-    - last_prod_flag
-    - last_cumrev
-    - last_cumbook
-    - last_cumstyle
-    - last_cumcolor
-    - last_cumprod
-    - last_cumcancel
-    - last_cumnoshow
-    - noshow
-    - recency
+    - Booking index     - book_tod        - book_dow    - book_category
+    - book_staff        - last_category   - last_staff  - last_day_services
+    - last_receipt_tot  - last_dow        - last_tod    - last_noshow
+    - last_prod_flag    - last_cumrev     - last_cumbook  
+    - last_cumstyle     - last_cumcolor   - last_cumprod
+    - last_cumcancel    - last_cumnoshow  - noshow      - recency
 
 Additional Data Sources (partially extracted for enrichment)
 - [Maven datasets](https://www.mavenanalytics.io/data-playground)
