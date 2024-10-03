@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<img src = "/assets/assets/tables_datatypes.png" alt="salon" 
+<img src = "/assets/tables_datatypes.png" alt="salon" 
         style="display: block; margin: 0 auto"/>
 </p>
 
