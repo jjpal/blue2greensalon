@@ -6,6 +6,7 @@
         style="display: block; margin: 0 auto"/>
 </p>
 
+### Tables 
 <p align="center">
 <img src = "/assets/tables_datatypes.png" alt="salon" 
         style="display: block; margin: 0 auto"/>
