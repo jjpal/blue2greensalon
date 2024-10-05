@@ -116,3 +116,34 @@ Style Guides
 [GitLab's SQL Style Guide](https://handbook.gitlab.com/handbook/enterprise-data/platform/sql-style-guide/)
 [KickStarter's SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
 [SQL tips and tricks](https://github.com/ben-n93/SQL-tips-and-tricks#readme)
+
+
+	Big Query Setup
+- Set up a GCP Account 
+- Go to BigQuery 
+      - Create a dataset: 
+          - give the dataset an ID 
+          - select the data location 
+          - click create dataset button
+
+Now load the dataset with data and tables - 2 options
+
+ 1] Load the individual CSVs 
+
+    - Select Upload from Create Table From drop-down
+    - Select file Browse - file format and destination information will be populated
+    - Name the table same as the file (recommended) 
+        - auto detect the schema 
+        - click create table button
+
+ 2] SQL script
+
+	Select compose new query create/copy-paste scripts
+	 - script to create the different tables
+	 - script to create the data for the tables
+   
+	Note: 
+      - 1st option requires several clicks, less time for small practice project
+		  - 2nd option scripts take less time to write, but will take longer for queries to execute
+
+Snowflake Setup      
