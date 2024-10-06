@@ -118,7 +118,7 @@ Style Guides
 [SQL tips and tricks](https://github.com/ben-n93/SQL-tips-and-tricks#readme)
 
 
-	Big Query Setup
+### Big Query Setup
 - Set up a GCP Account 
 - Go to BigQuery 
       - Create a dataset: 
@@ -126,24 +126,25 @@ Style Guides
           - select the data location 
           - click create dataset button
 
-Now load the dataset with data and tables - 2 options
-
+#### Now load the dataset with data and tables - 2 options
  1] Load the individual CSVs 
-
-    - Select Upload from Create Table From drop-down
-    - Select file Browse - file format and destination information will be populated
-    - Name the table same as the file (recommended) 
+   - Select Upload from Create Table From drop-down
+   - Select file Browse - file format and destination information will be populated
+   - Name the table same as the file (recommended) 
         - auto detect the schema 
         - click create table button
 
  2] SQL script
-
-	Select compose new query create/copy-paste scripts
+   - Select compose new query create/copy-paste scripts
 	 - script to create the different tables
 	 - script to create the data for the tables
    
-	Note: 
+ Note: 
       - 1st option requires several clicks, less time for small practice project
-		  - 2nd option scripts take less time to write, but will take longer for queries to execute
+      - 2nd option scripts take less time to write, but will take longer for queries to execute
 
-Snowflake Setup      
+[Quickstart for dbt Core from a manual install](https://docs.getdbt.com/guides/manual-install?step=1)
+
+### Snowflake and dbt Setup
+[Snowflake Getting Started](https://docs.snowflake.com/en/user-guide-getting-started)
+[dbt and Snowflake Setup](https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup)
