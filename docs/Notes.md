@@ -103,9 +103,9 @@ Additional Data Sources (partially extracted for enrichment)
 
 ----------
 #### Style Guides
-[Brooklyn Data Co. SQL style guide](https://github.com/brooklyn-data/co/blob/main/sql_style_guide.md)
-[GitLab's SQL Style Guide](https://handbook.gitlab.com/handbook/enterprise-data/platform/sql-style-guide/)
-[KickStarter's SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
+[Brooklyn Data Co. SQL style guide](https://github.com/brooklyn-data/co/blob/main/sql_style_guide.md) |
+[GitLab's SQL Style Guide](https://handbook.gitlab.com/handbook/enterprise-data/platform/sql-style-guide/) |
+[KickStarter's SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591) |
 [SQL tips and tricks](https://github.com/ben-n93/SQL-tips-and-tricks#readme)
 
 ----------
@@ -137,7 +137,13 @@ Additional Data Sources (partially extracted for enrichment)
 #### Quickstart 
 [dbt Core and BigQuery Setup](https://docs.getdbt.com/guides/manual-install?step=1)
 
+- Create a new GitHub repository 
+- Create a dbt project
+- Connect to BigQuery
+- ...
+
 ----------
 ### Snowflake and dbt Setup
 [Snowflake Getting Started](https://docs.snowflake.com/en/user-guide-getting-started)
+
 [dbt and Snowflake Setup](https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup)
