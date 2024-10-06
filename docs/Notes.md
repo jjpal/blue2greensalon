@@ -113,8 +113,11 @@ Additional Data Sources (partially extracted for enrichment)
 - Set up a GCP Account 
 - Go to BigQuery 
       - Create a dataset: 
+
           - give the dataset an ID 
+
           - select the data location 
+          
           - click create dataset button
 
 #### Now load the dataset with data and tables - 2 options
