@@ -81,15 +81,15 @@ Data Sources
 - Minimum   - Maximum  - Cost         - COG       - YTD    - Package
 
 **Receipt Transactions0.csv**
-    - Receipt   - Date    - Description  - Client   - Staff
-    - Quantity  - Amount  - GST          - PST
+- Receipt   - Date    - Description  - Client   - Staff
+- Quantity  - Amount  - GST          - PST
 
 **Client Cancellations0.csv**
-    - Cancel Date   - Code          - Service   - Staff
-    - Booking Date  - Canceled By   - Days
+- Cancel Date   - Code          - Service   - Staff
+- Booking Date  - Canceled By   - Days
 
 **No-Show Report0.csv**
-    - Date    - Code    - Service   - Staff
+- Date    - Code    - Service   - Staff
 
 **hair_salon_no_show_wrangled_df.csv**
 - Booking index  - book_tod  - book_dow - book_category   - book_staff - last_category - last_staff  
@@ -106,7 +106,6 @@ Additional Data Sources (partially extracted for enrichment)
 [GitLab's SQL Style Guide](https://handbook.gitlab.com/handbook/enterprise-data/platform/sql-style-guide/)
 [KickStarter's SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
 [SQL tips and tricks](https://github.com/ben-n93/SQL-tips-and-tricks#readme)
-
 
 ### Big Query Setup
 - Set up a GCP Account 
@@ -130,10 +129,11 @@ Additional Data Sources (partially extracted for enrichment)
 	 - script to create the data for the tables
    
  Note: 
-      - 1st option requires several clicks, less time for small practice project
-      - 2nd option scripts take less time to write, but will take longer for queries to execute
+- 1st option requires several clicks, less time for small practice project
+- 2nd option scripts take less time to write, but will take longer for queries to execute
 
-[Quickstart for dbt Core from a manual install](https://docs.getdbt.com/guides/manual-install?step=1)
+#### Quickstart 
+[dbt Core and BigQuery Setup](https://docs.getdbt.com/guides/manual-install?step=1)
 
 ### Snowflake and dbt Setup
 [Snowflake Getting Started](https://docs.snowflake.com/en/user-guide-getting-started)
