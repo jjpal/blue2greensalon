@@ -110,7 +110,7 @@ Additional Data Sources (partially extracted for enrichment)
 
 ----------
 ### Big Query Setup
-- Set up a GCP Account 
+- [Set up a GCP Account](https://console.cloud.google.com/getting-started?pli=1)
 - Go to BigQuery 
 
     - Create a dataset: 
@@ -149,5 +149,12 @@ Additional Data Sources (partially extracted for enrichment)
 ----------
 ### Snowflake and dbt Setup
 [Snowflake Getting Started](https://docs.snowflake.com/en/user-guide-getting-started)
+- [Set up a Snowflake Account](https://signup.snowflake.com/)
 
 [dbt and Snowflake Setup](https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup)
+
+### dbt
+- [Guides](https://docs.getdbt.com/guides)
+- [Reference](https://docs.getdbt.com/reference/references-overview)
+- [Courses](https://learn.getdbt.com/catalog)
+- [Best Practices](https://docs.getdbt.com/best-practices)
