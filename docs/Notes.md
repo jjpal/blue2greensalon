@@ -153,6 +153,7 @@ Additional Data Sources (partially extracted for enrichment)
 
 [dbt and Snowflake Setup](https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup)
 
+----------
 ### dbt
 - [Guides](https://docs.getdbt.com/guides)
 - [Reference](https://docs.getdbt.com/reference/references-overview)
