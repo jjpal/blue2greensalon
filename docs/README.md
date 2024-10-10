@@ -16,17 +16,17 @@
 4. Data Dictionary
 
         ◦ Compile a list of all data elements, definitions, data types, and sources.
+
 5. Data Source Analysis
 
         ◦ Identify and analyze all data sources that will feed into the new system.
 
         ◦ Document data quality issues and necessary transformations.
-<!--
-6. Data Governance Plan
-        ◦ Outline data ownership, access controls, and data quality management processes.
-7. Risk Assessment
- Identify potential risks and mitigation strategies. 
- -->
+
+#### Future Planning
+◦ Data Governance Plan - Outline data ownership, access controls, and data quality management processes.
+◦ Risk Assessment - Identify/document potential risks and mitigation strategies. 
+◦ 
 
 ### Project documents
 
@@ -34,5 +34,4 @@
 - [Refined Requirements](/docs/Refined%20Requirements.md)
 - [High Level System & Data Diagram](/docs/Project%20Diagrams.md)
 - [Data Dictionary Steps - References](/docs/Data%20Dictionary%20Steps%20-%20References.md)
--
 - [Notes](/docs/Notes.md)
