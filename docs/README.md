@@ -25,6 +25,7 @@
 
 #### Future Planning
 ◦ Data Governance Plan - Outline data ownership, access controls, and data quality management processes.
+
 ◦ Risk Assessment - Identify/document potential risks and mitigation strategies. 
 ◦ 
 
