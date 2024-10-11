@@ -65,7 +65,7 @@
   - VECTOR
 
 ----------
-Data Sources
+Data Sets
 ----------
 
 [Salon original dataset](https://www.kaggle.com/datasets/frederickferguson/hair-salon-no-show-data-set?select=Receipt+Transactions0.csv)
@@ -97,7 +97,7 @@ Data Sources
 - last_cumrev       - last_cumbook      - last_cumstyle   - last_cumcolor   
 - last_cumprod      - last_cumcancel    - last_cumnoshow  - noshow     - recency
 
-Additional Data Sources (partially extracted for enrichment)
+Additional Data Sets (partially extracted for enrichment)
 - [Maven datasets](https://www.mavenanalytics.io/data-playground)
 - 
 
@@ -159,3 +159,6 @@ Additional Data Sources (partially extracted for enrichment)
 - [Reference](https://docs.getdbt.com/reference/references-overview)
 - [Courses](https://learn.getdbt.com/catalog)
 - [Best Practices](https://docs.getdbt.com/best-practices)
+
+
+## Book References
