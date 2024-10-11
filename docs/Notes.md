@@ -160,5 +160,5 @@ Additional Datasets (partially extracted for enrichment)
 - [Courses](https://learn.getdbt.com/catalog)
 - [Best Practices](https://docs.getdbt.com/best-practices)
 
-
+----------
 ## Book References
