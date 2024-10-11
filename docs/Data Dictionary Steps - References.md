@@ -28,5 +28,5 @@
         ◦ Make it accessible, and provide training on how to use it effectively.
         ◦ Track usage and collect input to continually improve the data dictionary.
 
-## References
+### Project Reference
 - [Data Dictionary - Data Sources and Elements Draft](/docs/Data%20Dictionary%20Data%20Sources%20and%20Elements.md)
