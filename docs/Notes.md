@@ -161,4 +161,4 @@ Additional Datasets (partially extracted for enrichment)
 - [Best Practices](https://docs.getdbt.com/best-practices)
 
 ----------
-## Book References
+[Book References](https://jjpal.github.io/data_readings.html)
