@@ -162,3 +162,6 @@ Additional Datasets (partially extracted for enrichment)
 
 ----------
 [Book References](https://jjpal.github.io/data_readings.html)
+- Analytics Engineering with SQL and dbt by Rui Pedro Machado and Helder Russa
+- Google BigQuery: The Definitive Guide by Valliappa Lakshmanan, Jordan Tigani
+- Snowflake: The Definitive Guide by Joyce Kay Avila
