@@ -37,3 +37,9 @@
 - [High Level System & Data Diagram](/docs/Project%20Diagrams.md)
 - [Data Dictionary Steps - References](/docs/Data%20Dictionary%20Steps%20-%20References.md)
 - [Notes](/docs/Notes.md)
+
+### Project Checklist
+<p align="center">
+<img src = "/assets/project_task_checklist.png" alt="project_checklist" 
+        style="display: block; margin: 0 auto"/>
+</p>
