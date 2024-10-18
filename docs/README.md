@@ -1,6 +1,7 @@
 # Next Steps
 
 1. Establish the preliminary draft user requirements
+
 2. Requirements Refinement
 
         ◦ Conduct stakeholder interviews to validate/expand/narrow initial requirements.
@@ -8,14 +9,18 @@
         ◦ Create detailed use cases for each major functionality.
 
         ◦ Prioritize requirements based on business value and technical feasibility.
-3. Diagrams - Data / Process Flow | System Context
-        <!--
-        ◦ Develop a high-level diagram showing how the new system will interact with external systems and users.
-        ◦ Design flowcharts or UML activity diagrams to illustrate key business processes the system will support.
-        -->
+
+3. Process Flow / Diagrams - Data | System Context
+       
+        ◦ Design high-level diagram showing how the new system will interact with external systems and users.
+        
+        ◦ Flowcharts or UML activity diagrams to illustrate key business processes the system will support.
+
 4. Data Dictionary
 
         ◦ Compile a list of all data elements, definitions, data types, and sources.
+
+        ◦
 
 5. Data Source Analysis | Data Collection
 
