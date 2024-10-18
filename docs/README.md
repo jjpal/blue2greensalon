@@ -17,11 +17,23 @@
 
         ◦ Compile a list of all data elements, definitions, data types, and sources.
 
-5. Data Source Analysis
+5. Data Source Analysis | Data Collection
 
         ◦ Identify and analyze all data sources that will feed into the new system.
 
         ◦ Document data quality issues and necessary transformations.
+
+6. Data Preparation | Data Modeling
+
+        ◦ 
+
+        ◦ 
+
+7. Analytics | Insights & Actions
+
+        ◦ 
+
+        ◦ 
 
 #### Future Planning
 ◦ Data Governance Plan - Outline data ownership, access controls, and data quality management processes.
