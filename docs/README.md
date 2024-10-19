@@ -14,13 +14,13 @@
        
         ◦ Design high-level diagram showing how the new system will interact with external systems and users.
         
-        ◦ Flowcharts or UML activity diagrams to illustrate key business processes the system will support.
+        ◦ Flowcharts/activity diagrams/mapping to illustrate key business processes system will support.
 
 4. Data Dictionary
 
         ◦ Compile a list of all data elements, definitions, data types, and sources.
 
-        ◦
+        ◦ Review, validate, monitor adoption, and gather feedback
 
 5. Data Source Analysis | Data Collection
 
@@ -30,9 +30,9 @@
 
 6. Data Preparation | Data Modeling
 
-        ◦ 
+        ◦ Gather data, assess / understand the data, and validate data 
 
-        ◦ 
+        ◦ Process, transform, enrich (note sources if external data), design structure and relationships of data
 
 7. Analytics | Insights & Actions
 
