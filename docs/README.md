@@ -37,10 +37,10 @@
 7. Analytics | Insights & Actions
 
         ◦ Apply analytical techniques (descriptive, diagnostic, predictive, prescriptive) to the prepared data.
-         ◦ Use data visualization and analytics tools to surface insights and trends.
-         ◦ Develop recommendations for business improvements and implement changes.
-         ◦ Interpret analytical results and present them in a digestible manner for stakeholders.
-         ◦ Identify areas for improvement and opportunities for growth.
+        ◦ Use data visualization and analytics tools to surface insights and trends.
+        ◦ Develop recommendations for business improvements and implement changes.
+        ◦ Interpret analytical results and present them in a digestible manner for stakeholders.
+        ◦ Identify areas for improvement and opportunities for growth.
 
 #### Future Planning
 ◦ Data Governance Plan - Outline data ownership, access controls, and data quality management processes.
