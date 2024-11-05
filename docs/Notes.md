@@ -160,6 +160,21 @@ Additional Datasets (partially extracted for enrichment)
 - [Courses](https://learn.getdbt.com/catalog)
 - [Best Practices](https://docs.getdbt.com/best-practices)
 
+### Main commands
+- dbt init: Initializes a new dbt project.
+- dbt run: Runs all models within the project.
+- dbt test: Tests all tests within the project.
+- dbt snapshot: Executes snapshots in the snapshots-paths defined in the dbt_project.yml file.
+- dbt seed: Loads csv files found in the seed-paths defined in the dbt_project.yml file.
+- dbt build: dbt run + dbt test + dbt snapshot + dbt seed (in DAG order).
+- dbt deps: Downloads dependencies listed in the packages.yml file.
+
+Additional commands
+-dbt clean: helpful in situations where you have to delete the same folders frequently. 
+- dbt compile: when compilation errors occur use “dbt compile” before “dbt run” to catch those errors - to save some time.
+- dbt debug: Shows information about config ~ python/dbt versions, python path, OS info, paths of profiles.yml and dbt_project.yml. 
+  If the profiles.yml/dbt_project found/valid, info about the connection and tests it, and if the required dependencies were found.
+
 ----------
 [Book References](https://jjpal.github.io/data_readings.html)
 - Analytics Engineering with SQL and dbt by Rui Pedro Machado and Helder Russa
