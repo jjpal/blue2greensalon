@@ -170,9 +170,9 @@ Additional Datasets (partially extracted for enrichment)
 - dbt deps: Downloads dependencies listed in the packages.yml file.
 
 Additional commands
--dbt clean: helpful in situations where you have to delete the same folders frequently. 
+- dbt clean: helpful in situations where you have to delete the same folders frequently. 
 - dbt compile: when compilation errors occur use “dbt compile” before “dbt run” to catch those errors - to save some time.
-- dbt debug: Shows information about config ~ python/dbt versions, python path, OS info, paths of profiles.yml and dbt_project.yml. 
+- dbt debug: Shows info about config ~ python/dbt versions, python path, OS info, paths of profiles.yml and dbt_project.yml. 
   If the profiles.yml/dbt_project found/valid, info about the connection and tests it, and if the required dependencies were found.
 
 ----------
